@@ -11,11 +11,16 @@ class Anagram {
     }
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
-            System.out.println("Enter string 1: ");
-            String word1 = sc.nextLine();
-            System.out.println("Enter string 2: ");
-            String word2 = sc.nextLine();
-            System.out.printf("Both are%s an anagram.%n", isAnagram(word1, word2) ? "" : " not");
+            String choice = "";
+            do {
+                System.out.println("Enter string 1: ");
+                String word1 = sc.nextLine();
+                System.out.println("Enter string 2: ");
+                String word2 = sc.nextLine();
+                System.out.printf("Both are%s an anagram.%n", isAnagram(word1, word2) ? "" : " not");
+                System.out.println("Want to try again? 'no' to quit.");
+                choice = sc.nextLine();
+            } while (!choice.equals("no"));
         } catch (NullPointerException e) {
             System.out.println("Null strings are not allowed! ");
         }
