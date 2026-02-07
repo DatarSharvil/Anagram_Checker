@@ -1,8 +1,8 @@
 # About:
   A CLI tool that checks Anagrams in CLI on Linux x64 (Debian based and non-Debian based) and Windows 8+ x64 and macOS (macOS 11+) without an internet. Enjoy!
 # Requirements:
-  <p> Minimum: Java 8 </p>
-  <p> Recommended: Java 17 </p>
+  <p> Minimum: Java 21 </p>
+  <p> Recommended: Java 21 </p>
 
 # Usage:
   1. Linux (Debian-based): Just install the .deb file the way you like and enter the command "anagram" from any terminal to execute.
