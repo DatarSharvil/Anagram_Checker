@@ -1,4 +1,5 @@
-Contains a .deb file that has a CLI tool for quickly checking anagrams on Linux without an internet. Enjoy!
-Requirements:
-  Minimum: Java 8
-  Recommended: Java 17
+# About:
+  A CLI tool that checks Anagrams in CLI on Linux without an internet. Enjoy!
+# Requirements:
+  <p> Minimum: Java 8 </p>
+  <p> Recommended: Java 17 </p>
